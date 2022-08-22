@@ -52,12 +52,12 @@
                                         $result = $conn->query($status_seat);
                                     }
                                     echo "<script>alert('จองสำเร็จ')</script>";
-                                    echo "<script>window.location='transport.php'</script>";
+                                    echo "<script>window.location='index.php'</script>";
                                 }
                             }
                             else{
                                 echo "<script>alert('ไม่สามารถจองได้')</script>";
-                                header('Refresh: 0; url=transport.php');
+                                header('Refresh: 0; url=index.php');
                             }
                     }
 
@@ -96,17 +96,17 @@
                                         $result = $conn->query($status_seat);
                                     }
                                     echo "<script>alert('จองสำเร็จ')</script>";
-                                    echo "<script>window.location='transport.php'</script>";
+                                    echo "<script>window.location='index.php'</script>";
                                 }
                             }
                             else{
                                 echo "<script>alert('ไม่สามารถจองได้')</script>";
-                                header('Refresh: 0; url=transport.php');
+                                header('Refresh: 0; url=index.php');
                             }
                         }
                         else{
                             echo "<script>alert('คุณเคยจองแล้ว กรุณาจองวันอื่น')</script>";
-                            echo "<script>window.location='transport.php'</script>";
+                            echo "<script>window.location='index.php'</script>";
                         }
                     }
 

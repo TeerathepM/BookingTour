@@ -46,7 +46,7 @@
 
     <div id="page">
         <div class="header header-fixed header-logo-center header-auto-show">
-            <a href="transport.php" class="header-title">UBON</a>
+            <a href="index.php" class="header-title">UBON</a>
             <a href="#" data-back-button class="header-icon header-icon-1"><i class="fas fa-chevron-left"></i></a>
             <a href="#" data-menu="menu-main" class="header-icon header-icon-4"><i class="fas fa-bars"></i></a>
             <a href="#" data-toggle-theme class="header-icon header-icon-3 show-on-theme-dark"><i
@@ -84,7 +84,7 @@
                 <section class="main-content">
                     <div class="container pt-4 pb-4">
                         <a name="" id="" class="btn btn-primary mb-3" href="create-tour.php" role="button">Create</a>
-                        <a name="" id="" class="btn btn-warning mb-3 text-black" href="transport.php" role="button">UserPage</a>
+                        <a name="" id="" class="btn btn-warning mb-3 text-black" href="index.php" role="button">UserPage</a>
                         <?php
                                 include('connect.php');
                                 // Create connection
